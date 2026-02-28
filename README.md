@@ -22,8 +22,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 2. Run the script:
 ```bash
-python churn_model.py
+python churn_prediction_model.py
 ```
 
 ## Why Logistic Regression?
 While Black-box models (like Random Forests or Gradient Boosted Trees) might yield incrementally higher performance metrics, business stakeholders cannot act on "black box" decisions. Logistic Regression provides explicit feature coefficients, telling us exactly how much a specific attribute (like moving a customer from a Month-to-Month to a 1-Year contract) impacts their likelihood of churning.
+
